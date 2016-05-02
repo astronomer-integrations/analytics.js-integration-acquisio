@@ -1,7 +1,7 @@
-# analytics.js-integration-kenshoo-infinity
+# analytics.js-integration-acquisio
 
-Kenshoo Infinity integration for [Analytics.js][].
+Acquisio integration for analytics.js
 
 ## License
 
-Released under the [MIT license](License.md).
+MIT
