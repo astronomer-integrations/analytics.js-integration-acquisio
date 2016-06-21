@@ -4,7 +4,7 @@ var Analytics = require('analytics.js-core').constructor;
 var integration = require('analytics.js-integration');
 var sandbox = require('clear-env');
 var tester = require('analytics.js-integration-tester');
-var <= % name  = require('../lib/');
+var MyIntegration  = require('../lib/');
 
 describe('analytics.js-integration-acquisio', function () {
   var analytics;
@@ -12,7 +12,7 @@ describe('analytics.js-integration-acquisio', function () {
 
   beforeEach(function () {
     analytics = new Analytics();
-    myIntegration = new <= % name  (options);
+    myIntegration = new MyIntegration(options);
     analytics.use(myIntegration);
     analytics.use(tester);
     analytics.add(myIntegration);
