@@ -1,5 +1,5 @@
 {
-  "name": "analytics.js-integration-acquisio",
+  "name": "@astronomerio/analytics.js-integration-acquisio",
   "description": "The Blueshift analytics.js integration.",
   "author": "Segment <friends@segment.com>",
   "license": "MIT",
