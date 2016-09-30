@@ -10,6 +10,7 @@ describe('Acquisio', function() {
   var analytics;
   var acquisio;
   var options = {
+      events: ['Email Sign Up']
   };
 
   beforeEach(function() {
@@ -44,6 +45,12 @@ describe('Acquisio', function() {
     beforeEach(function(done) {
       analytics.once('ready', done);
       analytics.initialize();
+    });
+
+    describe('#track', function () {
+        it('should call track', function () {
+            analytics.track('Email Sign Up');
+        });
     });
   });
 });
